@@ -23,7 +23,6 @@ module.exports = {
           }
         }).concat(
           manualPosts.map((manualItem) => {
-            console.log('manualItem -----', manualItem)
             return {
               route: '/manual/' + manualItem.id,
               payload: manualItem
